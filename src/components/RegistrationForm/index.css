@@ -1,0 +1,134 @@
+/* Write your CSS code here */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ea580c;
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.first-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.first-err {
+  border-style: solid;
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+  color: #9aa5b1;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+}
+
+.first-name {
+  border-style: solid;
+  border-color: #cbd2d9;
+  background-color: transparent;
+  color: #9aa5b1;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+}
+
+.last-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.last-err {
+  border-style: solid;
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+  color: #9aa5b1;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+}
+
+.last-name {
+  border-style: solid;
+  border-color: #cbd2d9;
+  background-color: transparent;
+  color: #9aa5b1;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+}
+
+.first-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.last-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ea580c;
+  color: #ffffff;
+  height: 40px;
+  width: 90px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.submit-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.tick-img {
+  height: 90px;
+  width: 100px;
+}
+
+.success-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #475569;
+}
+
+.an-submit-btn {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ea580c;
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
